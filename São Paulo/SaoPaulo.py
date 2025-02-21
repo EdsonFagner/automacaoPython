@@ -80,7 +80,7 @@ def go_to_calendar(chrome):
     password = chrome.find_element_by_xpath(".//*[@id='Password']")
     captcha = chrome.find_element_by_xpath(".//*[@id='loginCaptcha']")
     user_name.send_keys("jogosteste16@gmail.com") # Login: Email do usuario no Prenota
-    password.send_keys("Jogos9495") # Senha: Senha do usuario no Prenota
+    password.send_keys("MyPassword") # Senha: Senha do usuario no Prenota
     captcha.click()
     print("\nDigite o captcha no Prenota! (tempo para digitar: 10s)")
     time.sleep(10)
